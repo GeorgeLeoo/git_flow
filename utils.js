@@ -15,4 +15,4 @@ export function timeAgo(time) {
     } else {
       return pluralize(~~(between / 86400), ' day')
     }
-  }
+}
